@@ -1,0 +1,45 @@
+.about-text {
+    font-family: 'Sacramento', cursive;
+    height:100px;
+    width: 200px;
+    font-size: x-large;
+    display: inline-block;
+    color: blue;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 50%;
+    background-color: black
+    letter-spacing: 2px;
+    border-radius: 6px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    /*margin-top: 70px*/
+}
+
+.about-col {
+    width: 30%;
+    height: 700px;
+    border: groove 1px #d0e1e1; /*light grey green*/
+    float: left;
+    margin-left: 40px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.pic, .audio, .video {
+    display: inline-block;
+}
+
+.pic {
+    width: 400px;
+    height: 215px;
+}
+
+.about-col p {
+    text-align: justify;
+    padding: 5px;
+}
